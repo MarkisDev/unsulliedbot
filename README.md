@@ -26,7 +26,7 @@ _I have removed the template used by [Unsullied Studios](https://instagram.com/u
 
 ## Who made this?
 Hello there,  
-I am [MarkisDev.](https://markis.dev)
+I am [MarkisDev.](https://markis.dev)  
 I build whatever interests me, feel free to join my [Discord server](https://join.markis.dev)
 
 _I apologize in advance because this code isn't as efficient as I'd like it to be. I made this mostly for personal use, and was honestly just messing around with Telegram API for the first time_
