@@ -169,10 +169,9 @@ def choose_author_quick(message):
         btn_4 = "- Sarahfin"
         btn_5 = "- Swapneel"
         btn_6 = "- Dheeraj"
-        btn_7 = "- Denin"
         btn_8 = "- Rushi"
         btn_9 = "- Rijuth"
-        buttons.add(btn_1, btn_2, btn_3, btn_4, btn_5, btn_6, btn_7, btn_8, btn_9)
+        buttons.add(btn_1, btn_2, btn_3, btn_4, btn_5, btn_6, btn_8, btn_9)
         data['title_size'] = 25
         data['title'] = message.text
         data['title_x'] = 180
@@ -243,7 +242,7 @@ def makepost(message):
 """
 You've chosen to make an instagram post. 
 
-<u><b>Please follow the onscreen instructions.</b></u>
+<b> <u> Please follow the onscreen instructions.</u> </b>
 
 Type <b>YES</b> to continue.
 
@@ -554,10 +553,9 @@ def choose_author_x(message):
     btn_4 = "- Sarahfin"
     btn_5 = "- Swapneel"
     btn_6 = "- Dheeraj"
-    btn_7 = "- Denin"
     btn_8 = "- Rushi"
     btn_9 = "- Rijuth"
-    buttons.add(btn_1, btn_2, btn_3, btn_4, btn_5, btn_6, btn_7, btn_8, btn_9)
+    buttons.add(btn_1, btn_2, btn_3, btn_4, btn_5, btn_6, btn_8, btn_9)
     if message.content_type == 'text':
         if util.is_command(message.text) and util.extract_command(message.text) in commands.keys():
             command_send(util.extract_command(message.text), message)
